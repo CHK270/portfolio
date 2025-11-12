@@ -68,7 +68,7 @@ h2{
 }
 .azerty{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
 .taille{
     height: 50px;
