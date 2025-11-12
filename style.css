@@ -23,6 +23,7 @@ h1{
 header{
     padding: 0%;
     margin: 0%;
+   
 }
 .button{
     
@@ -54,6 +55,7 @@ header{
     display: flex;
     justify-content: space-around;
     align-items: stretch;
+
 }
 .droite{
     display: flex;
