@@ -26,7 +26,8 @@ nav img {
     padding: 0%;
     height: 100px;
     width: 100px;
-}
+    border-radius: 100%;
+    }
 
 h1 {
     display: flex;
