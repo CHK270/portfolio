@@ -1,8 +1,13 @@
-html, body{
+html,
+body {
     padding: 0%;
     margin: 0%;
+    background-color: rgb(30, 28, 28);
+    color: white;
+    font-family: sans-serif;
 }
-nav ul{
+
+nav ul {
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
@@ -10,90 +15,165 @@ nav ul{
     margin: 0%;
     gap: 10px;
     list-style: none;
-    text-decoration: none;
-}
-nav img{
-padding: 0%;
-height: 100px;
-width: 100px;
-}
-h1{
-    display: flex;
-}
-header{
-    padding: 0%;
-    margin: 0%;
-   
-}
-.button{
-    
-   background: black;
-   display: flex;
-   justify-content: center;
-   align-items: center;
-   width: fit-content;
-   height: fit-content;
-   height: 60px;
-   width: 160px;
-   color: white;
-   white-space: nowrap;
-}
-.card-information{
-   display: flex;
-   flex-direction: column;
-   align-items: center;
-   justify-content: center;
-   padding: 16px;
-   gap: 8px;
-}
-.card-container{
-   display: flex;
-   gap: 16px;
-   padding:32px;
-}
-.principale{
-    display: flex;
-    justify-content: space-around;
-    align-items: stretch;
 
 }
-.droite{
-    display: flex;
-    height: 200PX;
+
+nav li {
+    color: white;
 }
-h2{
+
+nav img {
+    padding: 0%;
+    height: 100px;
+    width: 100px;
+}
+
+h1 {
+    display: flex;
+}
+
+header {
+    padding: 0%;
+    margin: 0%;
+
+}
+
+.button {
+
+    background: grey;
     display: flex;
     justify-content: center;
+    align-items: center;
+    width: fit-content;
+    height: fit-content;
+    height: 60px;
+    width: 160px;
+    color: white;
+    white-space: nowrap;
 }
-.centre{
+
+.card-information {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 16px;
+    gap: 8px;
+}
+
+.card-container {
+    display: flex;
+    gap: 16px;
+    padding: 0px;
+    margin: 0%;
+}
+
+.principale {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80vh;
+}
+
+
+
+.droite {
+    display: flex;
+    height: 70%;
+}
+
+h2 {
+    display: flex;
+    justify-content: center;
+    font-size: x-large;
+}
+
+.centre {
     padding: 10%;
 }
-.azerty{
+
+.azerty {
     display: flex;
     justify-content: space-evenly;
+
 }
-.taille{
-    height: 50px;
-    width: 70px;
+
+.taille {
+    height: 5%;
+    width: 30%;
+
 }
-.tailleimg{
-    height: 300px;
-    width: 400px;
+
+.tailleimg {
+    height: 50%;
+    width: 80%;
+    border: 5px solid white;
+    border-radius: 20%;
+
 }
-.depboutton{
+
+.depboutton {
 
     display: flex;
     flex-direction: row;
     align-items: flex-end;
+    background-color: white;
 }
-.button1{
+
+.button1 {
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
 }
-nav div{
-        display: flex;
+
+nav div {
+    display: flex;
     justify-content: space-between;
 }
-nav{
+
+nav {
+    padding: 2%;
+    box-shadow: 0px -5px 12px 7px;
+}
+
+.card-containers {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    justify-content: center;
+    width: 100vw;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.tete {
+    border-radius: 100%;
+}
+
+.chk {
+    width: 40vw;
+}
+
+a {
+    text-decoration: none;
+}
+
+footer {
+    padding: 2%;
+    box-shadow: 0px -5px 12px 7px
+}
+
+section {
     padding: 5%;
+}
+
+.tailleimg1 {
+    height: 100%;
+    width: 100%;
+}
+
+footer img:hover {
+    border: 5px solid red
+}
+header img{
+    border: 5px solid white;
 }
