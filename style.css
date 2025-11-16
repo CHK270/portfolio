@@ -31,10 +31,11 @@ nav img {
 
 h1 {
     display: flex;
+    color:  #DAA520 ;
 }
 
 header {
-    padding: 0%;
+    padding: 4%;
     margin: 0%;
 
 }
@@ -85,6 +86,7 @@ h2 {
     display: flex;
     justify-content: center;
     font-size: x-large;
+    padding: 3%;
 }
 
 .centre {
@@ -132,6 +134,7 @@ nav div {
 nav {
     padding: 2%;
     box-shadow: 0px -5px 12px 7px;
+    background-color: black;
 }
 
 .card-containers {
@@ -158,11 +161,13 @@ a {
 
 footer {
     padding: 2%;
-    box-shadow: 0px -5px 12px 7px
+    box-shadow: 0px -5px 12px 7px;
+    background-color: rgb(40, 38, 38);
 }
 
 section {
-    padding: 5%;
+    padding: 4%;
+
 }
 
 .tailleimg1 {
@@ -176,12 +181,15 @@ footer img:hover {
 header img{
     border: 5px solid white;
 }
-header{
-    padding: 5%;
-}
+
 main{
-    padding: 2%;
+    padding: 0%;
 }
-footer{
-    padding: 5%;
+.color{
+    background-color: rgb(40, 38, 38);
+}
+.azerty{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
