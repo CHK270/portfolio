@@ -76,8 +76,6 @@ header {
     height: 80vh;
 }
 
-
-
 .droite {
     display: flex;
     height: 70%;
@@ -177,4 +175,13 @@ footer img:hover {
 }
 header img{
     border: 5px solid white;
+}
+header{
+    padding: 5%;
+}
+main{
+    padding: 2%;
+}
+footer{
+    padding: 5%;
 }
