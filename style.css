@@ -89,9 +89,6 @@ h2 {
     padding: 3%;
 }
 
-.centre {
-    padding: 10%;
-}
 
 .deplacement {
     display: flex;
@@ -99,14 +96,14 @@ h2 {
 
 }
 
-.taille {
+.tailleetoile {
     height: 5%;
     width: 30%;
 
 }
 
 .tailleimg {
-    height: 50%;
+    height: 60%;
     width: 80%;
     border: 5px solid white;
     border-radius: 20%;
@@ -142,7 +139,7 @@ nav {
     flex-wrap: wrap;
     gap: 16px;
     justify-content: center;
-    width: 100vw;
+    width: 100%;
     height: auto;
     margin-bottom: 10px;
 }
@@ -192,4 +189,7 @@ main{
     display: flex;
     justify-content: space-around;
     align-items: center;
+}
+.collogo{
+    background-color: black;
 }
